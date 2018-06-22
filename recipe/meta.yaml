@@ -1,6 +1,6 @@
 {% set name = "blessings" %}
-{% set version = "1.6.1" %}
-{% set sha256 = "74919575885552e14bc24a68f8b539690bd1b5629180faa830b1a25b8c7fb6ea" %}
+{% set version = "1.7" %}
+{% set sha256 = "98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d" %}
 
 package:
   name: {{ name|lower }}
