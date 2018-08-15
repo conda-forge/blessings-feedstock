@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A thin, practical wrapper around terminal capabilities in Python'
+  summary: 'A thin, practical wrapper around terminal capabilities in Python '
   dev_url: https://github.com/erikrose/blessings
 
 extra:
