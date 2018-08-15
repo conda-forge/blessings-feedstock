@@ -1,6 +1,6 @@
 {% set name = "blessings" %}
-{% set version = "1.6.1" %}
-{% set sha256 = "74919575885552e14bc24a68f8b539690bd1b5629180faa830b1a25b8c7fb6ea" %}
+{% set version = "1.7" %}
+{% set sha256 = "98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d" %}
 
 package:
   name: {{ name|lower }}
@@ -14,14 +14,16 @@ source:
 build:
   number: 0
   skip: True  # [win]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - python
     - setuptools
+    - pip
   run:
     - python
+    - six
 
 test:
   imports:
@@ -32,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A thin, practical wrapper around terminal capabilities in Python'
+  summary: 'A thin, practical wrapper around terminal capabilities in Python '
   dev_url: https://github.com/erikrose/blessings
 
 extra:

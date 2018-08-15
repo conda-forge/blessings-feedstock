@@ -14,14 +14,16 @@ Summary: A thin, practical wrapper around terminal capabilities in Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/blessings-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/blessings-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/blessings-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/blessings-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/blessings-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/blessings-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/blessings-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/blessings-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/blessings/badges/version.svg)](https://anaconda.org/conda-forge/blessings)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/blessings/badges/downloads.svg)](https://anaconda.org/conda-forge/blessings)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-blessings-green.svg)](https://anaconda.org/conda-forge/blessings) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/blessings.svg)](https://anaconda.org/conda-forge/blessings) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/blessings.svg)](https://anaconda.org/conda-forge/blessings) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/blessings.svg)](https://anaconda.org/conda-forge/blessings) |
 
 Installing blessings
 ====================
