@@ -1,15 +1,14 @@
 schema_version: 1
 
 context:
-  name: blessings
-  version: 1.7
+  version: "1.7"
 
 package:
-  name: ${{ name|lower }}
+  name: blessings
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/b/blessings/blessings-${{ version }}.tar.gz
   sha256: 98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d
 
 build:
