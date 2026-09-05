@@ -13,7 +13,7 @@ source:
   sha256: 98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d
 
 build:
-  number: 1010
+  number: 1011
   skip: win
   script: python -m pip install . -vv --no-build-isolation --no-deps
 
@@ -21,8 +21,8 @@ requirements:
   build:
     - if: build_platform != target_platform
       then:
-      - python
-      - cross-python_${{ target_platform }}
+        - python
+        - cross-python_${{ target_platform }}
   host:
     - python
     - setuptools
